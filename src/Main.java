@@ -12,9 +12,7 @@ public class Main {
 
         System.out.println(text.stripLeading());
 
-        for (int i = 1; i<=15; i++) {
-            System.out.println(text);
-        }
+        System.out.println((text+"\n").repeat(15));
 
     }
 }
